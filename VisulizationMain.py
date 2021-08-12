@@ -102,7 +102,7 @@ class Draw(Frame):
                 print(y_1)
 
                 self.canvas.create_line(x_1, y_1, x_2, y_2, width=1, fill="yellow")
-                
+
 def main():
     window = Tk()
     draw = Draw()
